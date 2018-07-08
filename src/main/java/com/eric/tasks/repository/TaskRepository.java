@@ -1,4 +1,9 @@
 package com.eric.tasks.repository;
 
-public interface TaskRepository {
+import com.eric.tasks.domain.Task;
+import org.springframework.data.repository.CrudRepository;
+
+public interface TaskRepository extends CrudRepository<Task, Long> {
+
+
 }
