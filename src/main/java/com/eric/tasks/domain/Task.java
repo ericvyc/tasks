@@ -28,12 +28,12 @@ public class Task {
 
     }
 
-    public Task(long id, String name, LocalDate dueDate, Boolean completed) {
-        this.id = id;
-        this.name = name;
-        this.dueDate = dueDate;
-        this.completed = completed;
-    }
+//    public Task(long id, String name, LocalDate dueDate, Boolean completed) {
+//        this.id = id;
+//        this.name = name;
+//        this.dueDate = dueDate;
+//        this.completed = completed;
+//    }
 
     public Long getId() {
         return id;
