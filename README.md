@@ -1,6 +1,4 @@
-# tasks
-
-Tasks API
+# Tasks API
 
 Angular + SpringBoot
 
